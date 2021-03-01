@@ -1,4 +1,4 @@
-I'm sorry, this started to take a lot of time and at some point I stopped coding. I would say, I spent the allotted 5 hours and did what I could in that time frame.
+I'm sorry, this started to take a lot of time and at some point I stopped coding. I spent the allotted 5 hours and did what I could in that time frame.
 
 Command to get past CORS error on mac:
 

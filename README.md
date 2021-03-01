@@ -6,14 +6,14 @@ Command to get past CORS error on mac:
 
 Included:
 
--Sorting algorithm for date and times provided.
--State management with react hooks.
--Material UI customized components.
+Sorting algorithm for date and times provided
+State management with react hooks
+Material UI customized components
 
 Missing:
 
--Algorithm for future appointments
--Sorting function in confirmed appointments
+Algorithm for future appointments
+Sorting function in confirmed appointments
 
 
 ## Available Scripts

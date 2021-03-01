@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SimpleContainer from './components/Appointments'
 import Typography from '@material-ui/core/Typography';

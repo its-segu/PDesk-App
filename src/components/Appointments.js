@@ -63,18 +63,7 @@ export default function SimpleContainer() {
     fetch('https://sampledata.petdesk.com/api/appointments')
     .then(response => response.json())
     .then(data => sortAppointments(data));
-    // sortAppointments(data)
   }, []);
-
-
-// console.log(appointments[0].requestedDateTimeOffset)
-console.log(appointments)
-
-
-// new Date()
-// new Date(milliseconds)
-// new Date(dataString)
-// new Date(year, month, date, hour, minute, second, millisecond)
 
   const sortAppointments = (data) => {
     const now = new Date("2018-12-01T08:00:00");
@@ -85,7 +74,6 @@ console.log(appointments)
       var startTimeSplit = data[i].requestedDateTimeOffset.split("T",2)
       data[i]["startTime"] = startTime;
       data[i]["endTime"] = startTimeSplit[0] + "T" + endTimeSplit[3]
-      // setAppointments(data)
     }
     data.sort((a,b) => {
       const [aTime, bTime] = [a.startTime,b.endTime].map(d => Math.abs(new Date(d) - now));
@@ -94,7 +82,6 @@ console.log(appointments)
     setAppointments(data)
   }
 
-console.log(appointments)
   const rescheduleClick = (appointment) => {
     globalActions.showDialog(true);
   }
@@ -105,8 +92,7 @@ console.log(appointments)
     if (index > -1) {
         appointments.splice(index, 1);
     }
-    // setAppointments(appointments)
-    console.log(globalState)
+    setAppointments(appointments)
   }
 
   return (

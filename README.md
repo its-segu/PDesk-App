@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+I'm sorry, this started to take a lot of time and at some point I stopped coding. I would say, I spent the allotted 5 hours and did what I could in that time frame.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Command to get past CORS error on mac:
+
+### `open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security`
+
+Included:
+
+-Sorting algorithm for date and times provided.
+-State management with react hooks.
+-Material UI customized components.
+
+Missing:
+
+-Algorithm for future appointments
+-Sorting function in confirmed appointments
+
 
 ## Available Scripts
 

@@ -10,14 +10,6 @@ import ConfirmedApp from './components/ConfirmedApp'
 
 function App() {
   const [confirmScreen, setConfirmScreen] = useState(false)
-  // const [appointments, setAppointments] = useState([])
-  //
-  // useEffect(() => {
-  //   fetch('https://sampledata.petdesk.com/api/appointments')
-  //   .then(response => response.json())
-  //   .then(data => setAppointments(data));
-  //
-  // }, []);
 
   const confirmedView = () => {
     setConfirmScreen(!confirmScreen)

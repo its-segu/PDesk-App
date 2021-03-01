@@ -28,13 +28,13 @@ function App() {
       <ConfirmedApp/>
       </div>
       </React.Fragment>
-    :
-    <React.Fragment>
-    <h2 className="header-title">Appointments(Most Pending - Least Pending)</h2>
-    <div className="container">
-    <SimpleContainer  />
-    </div>
-    </React.Fragment>
+      :
+      <React.Fragment>
+      <h2 className="header-title">Appointments(Most Pending - Least Pending)</h2>
+      <div className="container">
+      <SimpleContainer  />
+      </div>
+      </React.Fragment>
     }
     </Container>
     </header>

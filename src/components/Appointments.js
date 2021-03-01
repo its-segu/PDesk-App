@@ -101,8 +101,8 @@ export default function SimpleContainer() {
       <div key={i} className={classes.appointment}>
       <h6>{appointment.user.lastName}, {appointment.user.firstName}</h6>
       <h6>Date: {appointment.requestedDateTimeOffset.split("T",2)[0]}</h6>
-      <h6>Start:{appointment.startTime.split("T",2)[1]}AM</h6>
-      <h6>End:{appointment.endTime.split("T",2)[1]}PM</h6>
+      <h6>Start:{appointment.startTime.split("T",2)[1]}</h6>
+      <h6>End:{appointment.endTime.split("T",2)[1]}</h6>
       <div className={classes.buttonDiv}>
       <Button onClick={() => confirmClick(appointment)}  classes={{
         root: classes.buttonSecond,

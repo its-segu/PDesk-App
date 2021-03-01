@@ -8,12 +8,12 @@ Included:
 
 Sorting algorithm for date and times provided.\
 State management with react hooks.\
-Material UI customized components.\
+Material UI customized components.
 
 Missing:
 
 Algorithm for future appointments.\
-Sorting function in confirmed appointments.\
+Sorting function in confirmed appointments.
 
 
 ## Available Scripts

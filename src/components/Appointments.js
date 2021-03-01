@@ -66,8 +66,7 @@ export default function SimpleContainer() {
   }, []);
 
   const sortAppointments = (data) => {
-    const now = new Date("2018-12-01T08:00:00");
-    console.log(now)
+    const now = new Date();
     for (var i=0; i < data.length; i++) {
       var startTime = data[i].requestedDateTimeOffset.slice(0, -6)
       var endTimeSplit = data[i].requestedDateTimeOffset.split("-",6)
